@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("../public/assets/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../public/assets/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("../public/assets/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Italic";
+  src: url("../public/assets/Poppins-Italic.ttf");
+}
+
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/assets/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url("../public/assets/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter SemiBold";
+  src: url("../public/assets/Inter-SemiBold.ttf");
+}
+
+/* SF MONO */
+
+@font-face {
+  font-family: "SFMONO";
+  src: url("../public/assets/SFMonoRegular.woff");
+}
+
+@font-face {
+  font-family: "SF MONO BOLD";
+  src: url("../public/assets/SFMonoBold.woff");
+}
+
+@font-face {
+  font-family: "SF MONO SEMI BOLD";
+  src: url("../public/assets/SFMonoSemibold.woff");
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
